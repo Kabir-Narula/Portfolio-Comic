@@ -43,7 +43,7 @@ export const Scene1 = () => {
         />
       </div>
 
-      <Delay wait={1200}>
+      <Delay wait={1100}>
         <div
           className={text ? "toggle-text txt-scene1-chg" : "text txt-scene1"}
         >

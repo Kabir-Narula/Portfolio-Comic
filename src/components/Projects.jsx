@@ -9,7 +9,7 @@ import moon from "../images/parallax/moon.png";
 import cloud1 from "../images/parallax/cloud1.png";
 import cloud2 from "../images/parallax/cloud2.png";
 import star from "../images/parallax/star.png";
-import guy from "../images/badGuy/25.png";
+import guy from "../images/badGuy/Ryunosuke_Akutagawa_29.webp";
 import grass from "../images/parallax/grass.png";
 
 export const Projects = () => {

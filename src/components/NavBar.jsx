@@ -206,7 +206,7 @@ export const NavBar = () => {
         <li className="nav-item social codepen-li">
           <a
             className="nav-link"
-            href="https://kabir-narula.github.io/Aespa/"
+            href="https://bungostraydogs.fandom.com/wiki/Osamu_Dazai"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -237,7 +237,7 @@ export const NavBar = () => {
               />
             </svg>
 
-            <span className="link-text">CODEPEN</span>
+            <span className="link-text">Dazai</span>
           </a>
         </li>
 
