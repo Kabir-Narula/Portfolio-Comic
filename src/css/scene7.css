@@ -1,0 +1,197 @@
+.bg-scene7 {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  -webkit-animation: color-change 5s linear infinite;
+  animation: color-change 5s linear infinite;
+}
+
+.rain {
+  content: "";
+  position: absolute;
+  background: url("../images/backgrounds/rain.png");
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  -webkit-animation: rain 0.2s linear infinite;
+  animation: rain 0.2s linear infinite;
+}
+
+@-webkit-keyframes color-change {
+  0%,
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    -webkit-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+@keyframes color-change {
+  0%,
+  100% {
+    -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
+  }
+  50% {
+    -webkit-filter: hue-rotate(360deg);
+    filter: hue-rotate(360deg);
+  }
+}
+
+@-webkit-keyframes rain {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 20% 100%;
+  }
+}
+
+@keyframes rain {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 20% 100%;
+  }
+}
+
+.img-scene7 {
+  content: url("../images/badGuy/Ryunosuke_Akutagawa_29.webp");
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+}
+
+.txt-scene7 {
+  background-image: url("../images/speechBubbles/speech-bubble1.png");
+}
+
+.first-speech-scene7,
+.second-speech-scene7 {
+  position: relative;
+  text-shadow: 2px 2px 6px #ff0000;
+  -webkit-animation: color-change 5s linear infinite;
+  animation: color-change 5s linear infinite;
+}
+
+/* Ultra Super Extra small devices (phones, 399px and down) */
+@media only screen and (max-width: 399px) {
+  .first-speech-scene7 {
+    top: 37px;
+    font-size: 1.5rem;
+  }
+
+  .second-speech-scene7 {
+    top: 25px;
+    font-size: 1.3rem;
+  }
+}
+
+/* Super Extra small devices (phones, between 400px and 499px) */
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+  .first-speech-scene7 {
+    top: 50px;
+    font-size: 2.2rem;
+  }
+
+  .second-speech-scene7 {
+    top: 40px;
+    font-size: 1.8rem;
+  }
+}
+
+/* Extra small devices (phones, 500px and up) */
+@media only screen and (min-width: 500px) {
+  .first-speech-scene7 {
+    top: 60px;
+    font-size: 2.3rem;
+  }
+
+  .second-speech-scene7 {
+    top: 42px;
+    font-size: 2rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .first-speech-scene7 {
+    top: 90px;
+    font-size: 2.5rem;
+  }
+
+  .second-speech-scene7 {
+    top: 70px;
+    font-size: 2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .first-speech-scene7 {
+    top: 95px;
+    font-size: 2.8rem;
+  }
+
+  .second-speech-scene7 {
+    top: 80px;
+    font-size: 2.4rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .first-speech-scene7 {
+    top: 90px;
+    font-size: 2.5rem;
+  }
+
+  .second-speech-scene7 {
+    top: 70px;
+    font-size: 2.5rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .first-speech-scene7 {
+    top: 82px;
+    font-size: 3rem;
+  }
+
+  .second-speech-scene7 {
+    top: 67px;
+    font-size: 2.7rem;
+  }
+}
+
+/* Super Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+  .first-speech-scene7 {
+    top: 110px;
+    font-size: 3rem;
+  }
+
+  .second-speech-scene7 {
+    top: 90px;
+    font-size: 2.7rem;
+  }
+}
+
+/* Iphone 6/7/8 Plus Landscape */
+@media only screen and (max-width: 736px) and (max-height: 414px) and (orientation: landscape) {
+  .first-speech-scene7 {
+    top: 0;
+    font-size: 1.5rem;
+  }
+
+  .second-speech-scene7 {
+    top: -15px;
+    font-size: 1.7rem;
+  }
+}

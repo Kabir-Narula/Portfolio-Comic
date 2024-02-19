@@ -1,0 +1,560 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap");
+.wrapper {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Paloseco, sans-serif;
+  background: black;
+}
+
+.about-header {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.about-header::before {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  width: 100%;
+  height: 100px;
+  background: -webkit-linear-gradient(bottom, black, transparent);
+  background: linear-gradient(to top, black, transparent);
+  z-index: 100000;
+}
+
+h2 {
+  text-align: center;
+  font-size: 1.7rem;
+  color: #fff;
+}
+
+.about-text {
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  white-space: pre-line;
+}
+
+#bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  pointer-events: none;
+}
+
+#moon {
+  position: absolute;
+  z-index: 1;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+#cloud1 {
+  position: absolute;
+  z-index: 2;
+}
+
+#cloud2 {
+  position: absolute;
+  z-index: 0;
+}
+
+#star {
+  z-index: 0;
+  position: absolute;
+  right: -500px;
+  top: -400px;
+  max-width: 250px;
+  -webkit-transform: scale(2);
+  transform: scale(2);
+}
+
+#me {
+  position: absolute;
+  z-index: 10000;
+  -webkit-transform: scale(0);
+  transform: scale(0);
+}
+
+#grass {
+  position: absolute;
+  bottom: 0;
+  z-index: 1000;
+  width: 100%;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+}
+
+.lang-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+
+.en-btn {
+  content: url("../images/languages/united-kingdom.png");
+  height: 60px;
+  width: auto;
+  cursor: pointer;
+}
+
+.en-btn:hover {
+  -webkit-animation: bounce 0.3s infinite alternate;
+  animation: bounce 0.3s infinite alternate;
+}
+
+.es-btn {
+  content: url("../images/languages/istockphoto-455169703-612x612.jpg");
+  height: 60px;
+  width: auto;
+  cursor: pointer;
+}
+
+.es-btn:hover {
+  -webkit-animation: bounce 0.3s infinite alternate;
+  animation: bounce 0.3s infinite alternate;
+}
+
+/* Ultra Super Extra small devices (phones, 399px and down) */
+@media only screen and (max-width: 399px) {
+  .about-header {
+    height: 80vh;
+  }
+
+  #moon {
+    width: 250vw;
+    left: -20vw;
+    top: 5vh;
+  }
+
+  #cloud1 {
+    width: 60vw;
+    top: 30vh;
+    left: 0;
+  }
+
+  #cloud2 {
+    width: 60vw;
+    top: 15vh;
+    right: 0;
+  }
+
+  #star {
+    right: -500px;
+    top: -200px;
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
+
+  #grass {
+    width: 180vw;
+  }
+
+  #me {
+    width: 280vw;
+    top: 100vh;
+  }
+
+  h2 {
+    margin: 30px;
+    margin-top: 20%;
+    padding-bottom: 10px;
+  }
+
+  .about-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .lang-icons {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+  }
+}
+
+/* Super Extra small devices (phones, between 400px and 499px) */
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+  .about-header {
+    height: 85vh;
+  }
+
+  #moon {
+    width: 250vw;
+    left: -20vw;
+    top: 20vh;
+  }
+
+  #cloud1 {
+    width: 60vw;
+    top: 35vh;
+    left: 0;
+  }
+
+  #cloud2 {
+    width: 70vw;
+    top: 20vh;
+    right: 0;
+  }
+
+  #star {
+    right: -600px;
+    top: -200px;
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
+
+  #grass {
+    width: 180vw;
+  }
+
+  #me {
+    width: 250vw;
+    top: 100vh;
+  }
+
+  h2 {
+    margin: 40px;
+    margin-top: 20%;
+    padding-bottom: 10px;
+  }
+
+  .about-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .lang-icons {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+  }
+}
+
+/* Extra small devices (phones, 500px and up) */
+@media only screen and (min-width: 500px) {
+  .about-header {
+    height: 90vh;
+  }
+
+  #moon {
+    width: 250vw;
+    left: -20vw;
+    top: 20vh;
+  }
+
+  #cloud1 {
+    width: 60vw;
+    top: 35vh;
+    left: 0;
+  }
+
+  #cloud2 {
+    width: 70vw;
+    top: 20vh;
+    right: 0;
+  }
+
+  #star {
+    right: -600px;
+    top: -200px;
+    -webkit-transform: scale(2);
+    transform: scale(2);
+  }
+
+  #me {
+    width: 250vw;
+    top: 100vh;
+  }
+
+  #grass {
+    width: 180vw;
+  }
+
+  h2 {
+    margin: 40px;
+    margin-top: 10%;
+    padding-bottom: 10px;
+    font-size: 2rem;
+  }
+
+  .about-text {
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  .lang-icons {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .about-header {
+    height: 100vh;
+  }
+
+  #moon {
+    width: 250vw;
+    left: -10vw;
+    top: 20vh;
+  }
+
+  #cloud1 {
+    width: 60vw;
+    top: 35vh;
+    left: 15vw;
+  }
+
+  #cloud2 {
+    width: 80vw;
+    top: 20vh;
+    right: 0;
+  }
+
+  #me {
+    top: 110vh;
+    width: 170vw;
+    margin-left: 5em;
+  }
+
+  h2 {
+    margin: 50px;
+    margin-left: 3em;
+    padding-bottom: 10px;
+  }
+
+  .about-text {
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .lang-icons {
+    margin-left: 25vw;
+    margin-right: 15vw;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+  }
+}
+
+@media only screen and (min-width: 720px) and (min-height: 1280px) {
+  .about-header {
+    height: 100vh;
+  }
+
+  #moon {
+    width: 250vw;
+    left: -10vw;
+    top: 20vh;
+  }
+
+  #cloud1 {
+    width: 60vw;
+    top: 35vh;
+    left: 10vw;
+  }
+
+  #cloud2 {
+    width: 80vw;
+    top: 20vh;
+    right: 0;
+  }
+
+  #me {
+    width: 170vw;
+    top: 100vh;
+    margin-left: 5em;
+  }
+
+  h2 {
+    margin: 50px;
+    margin-left: 80px;
+    padding-bottom: 10px;
+    font-size: 2.5rem;
+  }
+
+  .about-text {
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+  }
+
+  .lang-icons {
+    margin-left: 25vw;
+    margin-right: 15vw;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .about-header {
+    height: 100vh;
+  }
+
+  #moon {
+    width: 250vw;
+    left: -10vw;
+    top: 20vh;
+  }
+
+  #cloud1 {
+    width: 60vw;
+    top: 35vh;
+    left: 10vw;
+  }
+
+  #cloud2 {
+    width: 80vw;
+    top: 20vh;
+    right: 0;
+  }
+
+  #me {
+    width: 170vw;
+    top: 100vh;
+    margin-left: 5em;
+  }
+
+  h2 {
+    margin: 50px;
+    margin-left: 80px;
+    padding-bottom: 10px;
+    font-size: 2.5rem;
+  }
+
+  .about-text {
+    margin-left: 100px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  .lang-icons {
+    margin-left: 23vw;
+    margin-right: 15vw;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  #moon {
+    width: 150vw;
+    left: 0;
+    top: 5vh;
+  }
+
+  #cloud1 {
+    width: 45vw;
+    top: 20vh;
+    left: 10vw;
+  }
+
+  #cloud2 {
+    width: 50vw;
+    top: 15vh;
+    right: 10vw;
+  }
+
+  #me {
+    width: 100vw;
+    top: 110vh;
+    margin-left: 5em;
+  }
+
+  #grass {
+    width: 120vw;
+  }
+
+  h2 {
+    margin: 50px;
+    margin-left: 4em;
+    padding-bottom: 10px;
+    font-size: 2rem;
+  }
+
+  .about-text {
+    margin-right: 40px;
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+  }
+
+  .lang-icons {
+    margin-left: 35vw;
+    margin-right: 30vw;
+    margin-top: 6vh;
+    margin-bottom: 5vh;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  h2 {
+    margin-left: 2em;
+    font-size: 3rem;
+  }
+
+  .about-text {
+    font-size: 2rem;
+  }
+}
+
+/* Iphone 6/7/8 Plus Landscape */
+@media only screen and (max-width: 736px) and (max-height: 414px) and (orientation: landscape) {
+  #moon {
+    width: 150vw;
+    left: 5vw;
+    top: 0;
+  }
+
+  #cloud1 {
+    width: 50vw;
+    left: 10vw;
+    top: 5vh;
+  }
+
+  #cloud2 {
+    width: 50vw;
+    right: 0;
+    top: 5vh;
+  }
+
+  #me {
+    width: 150vw;
+    top: 50vh;
+    margin-left: 5em;
+  }
+}

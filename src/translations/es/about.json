@@ -1,0 +1,8 @@
+{
+  "title": {
+    "about-me": "소개"
+  },
+  "body": {
+    "p": "제 이름은 카비르 나룰라이고 캐나다 토론토에 살고 있습니다. 저는 애플리케이션을 개발하는 데 관심이 있는 웹 개발자입니다. 어릴 적부터 컴퓨터와 접촉해 왔으며 배움을 멈추지 않았습니다.\n\n지금까지 제 기술은 다음과 같습니다:\n\nHTML, CSS, Javascript, Node.js, Express, PostgreSQL, C, C++, GraphQL, React, Git."
+  }
+}

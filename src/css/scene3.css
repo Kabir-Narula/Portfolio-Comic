@@ -1,0 +1,193 @@
+.bg-scene3 {
+  background-image: url("../images/backgrounds/bg-scene3.jpg");
+}
+
+.img-scene3 {
+  content: url("../images/badGuy/ssss.png");
+}
+
+.img-scene3-chg {
+  content: url("../images/badGuy/ssss.png");
+}
+
+.txt-scene3 {
+  background-image: url("../images/speechBubbles/speech-bubble1.png");
+}
+
+.txt-scene3-chg {
+  background-image: url("../images/speechBubbles/speech-bubble3.png");
+}
+
+.first-speech-scene3,
+.second-speech-scene3,
+.third-speech-scene3 {
+  position: relative;
+  text-shadow: 2px 2px 6px #ff0000;
+  -webkit-animation: color-change 5s linear infinite;
+  animation: color-change 5s linear infinite;
+}
+
+/* Ultra Super Extra small devices (phones, 399px and down) */
+@media only screen and (max-width: 399px) {
+  .first-speech-scene3 {
+    top: 30px;
+    font-size: 0.9rem;
+  }
+
+  .second-speech-scene3 {
+    top: 7px;
+    font-size: 0.9rem;
+  }
+
+  .third-speech-scene3 {
+    top: 35px;
+    left: -5px;
+    font-size: 1.5rem;
+  }
+}
+
+/* Super Extra small devices (phones, between 400px and 499px) */
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+  .first-speech-scene3 {
+    top: 35px;
+    font-size: 1.1rem;
+  }
+
+  .second-speech-scene3 {
+    top: 10px;
+    font-size: 1.1rem;
+  }
+
+  .third-speech-scene3 {
+    top: 57px;
+    left: -1vw;
+    font-size: 2.2rem;
+  }
+}
+
+/* Extra small devices (phones, 500px and up) */
+@media only screen and (min-width: 500px) {
+  .first-speech-scene3 {
+    top: 47px;
+    font-size: 1.3rem;
+  }
+
+  .second-speech-scene3 {
+    top: 12px;
+    font-size: 1.3rem;
+  }
+
+  .third-speech-scene3 {
+    top: 65px;
+    left: -10px;
+    font-size: 2.5rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .first-speech-scene3 {
+    top: 67px;
+    font-size: 1.5rem;
+  }
+
+  .second-speech-scene3 {
+    top: 35px;
+    font-size: 1.4rem;
+  }
+
+  .third-speech-scene3 {
+    top: 100px;
+    font-size: 2.7rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .first-speech-scene3 {
+    top: 75px;
+    font-size: 1.7rem;
+  }
+
+  .second-speech-scene3 {
+    top: 40px;
+    font-size: 1.7rem;
+  }
+
+  .third-speech-scene3 {
+    top: 95px;
+    font-size: 3rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .first-speech-scene3 {
+    top: 70px;
+    font-size: 1.5rem;
+  }
+
+  .second-speech-scene3 {
+    top: 33px;
+    font-size: 1.5rem;
+  }
+
+  .third-speech-scene3 {
+    top: 80px;
+    left: -15px;
+    font-size: 2.5rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .first-speech-scene3 {
+    top: 70px;
+    font-size: 1.7rem;
+  }
+
+  .second-speech-scene3 {
+    top: 30px;
+    font-size: 1.7rem;
+  }
+
+  .third-speech-scene3 {
+    top: 115px;
+    font-size: 3.2rem;
+  }
+}
+
+/* Super Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+  .first-speech-scene3 {
+    top: 95px;
+    font-size: 1.8rem;
+  }
+
+  .second-speech-scene3 {
+    top: 50px;
+    font-size: 1.8rem;
+  }
+
+  .third-speech-scene3 {
+    top: 115px;
+    font-size: 3.2rem;
+  }
+}
+
+/* Iphone 6/7/8 Plus Landscape */
+@media only screen and (max-width: 736px) and (max-height: 414px) and (orientation: landscape) {
+  .first-speech-scene3 {
+    top: -5px;
+    font-size: 1.4rem;
+  }
+
+  .second-speech-scene3 {
+    top: -35px;
+  }
+
+  .third-speech-scene3 {
+    top: 10px;
+    font-size: 2.2rem;
+  }
+}

@@ -1,0 +1,195 @@
+.bg-scene4 {
+  z-index: 1;
+  background-image: url("../images/backgrounds/bg-scene4a.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  height: 100%;
+  -webkit-clip-path: polygon(0 43%, 100% 58%, 100% 100%, 0 100%);
+  clip-path: polygon(0 43%, 100% 58%, 100% 100%, 0 100%);
+  -webkit-animation-name: fadeInOpacity;
+  animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+
+.bg2-scene4 {
+  z-index: 1;
+  background-image: url("../images/backgrounds/bg-scene4.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  height: 100%;
+  -webkit-clip-path: polygon(0 0, 100% 0%, 100% 55%, 0 40%);
+  clip-path: polygon(0 0, 100% 0%, 100% 55%, 0 40%);
+  -webkit-animation-name: fadeInOpacity;
+  animation-name: fadeInOpacity;
+  -webkit-animation-iteration-count: 1;
+  animation-iteration-count: 1;
+  -webkit-animation-timing-function: ease-in;
+  animation-timing-function: ease-in;
+  -webkit-animation-duration: 0.3s;
+  animation-duration: 0.3s;
+}
+
+.img-scene4 {
+  z-index: 50;
+  content: url("../images/me/scenwe4.png");
+}
+
+.img2-scene4 {
+  z-index: 50;
+  content: url("../images/badGuy/Ryunosuke_Akutagawa_29.webp");
+}
+
+.txt-scene4 {
+  z-index: 100;
+  background-image: url("../images/speechBubbles/speech-bubble1.png");
+}
+
+.txt2-scene4 {
+  z-index: 100;
+  background-image: url("../images/speechBubbles/speech-bubble1-flip.png");
+}
+
+.first-speech-scene4,
+.second-speech-scene4 {
+  position: relative;
+}
+
+.second-speech-scene4 {
+  text-shadow: 2px 2px 6px #ff0000;
+  -webkit-animation: color-change 5s linear infinite;
+  animation: color-change 5s linear infinite;
+}
+
+/* Ultra Super Extra small devices (phones, 399px and down) */
+@media only screen and (max-width: 399px) {
+  .first-speech-scene4 {
+    top: 35px;
+    font-size: 0.8rem;
+  }
+
+  .second-speech-scene4 {
+    top: 35px;
+    left: -5px;
+    font-size: 1.4rem;
+  }
+}
+
+/* Super Extra small devices (phones, between 400px and 499px) */
+@media only screen and (min-width: 400px) and (max-width: 499px) {
+  .first-speech-scene4 {
+    top: 55px;
+    font-size: 1.2rem;
+  }
+
+  .second-speech-scene4 {
+    top: 50px;
+    font-size: 2rem;
+  }
+}
+
+/* Extra small devices (phones, 500px and up) */
+@media only screen and (min-width: 500px) {
+  .first-speech-scene4 {
+    top: 57px;
+    left: 5px;
+    font-size: 1.2rem;
+  }
+
+  .second-speech-scene4 {
+    top: 50px;
+    font-size: 2rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .first-speech-scene4 {
+    top: 65px;
+    left: 5px;
+    font-size: 1.3rem;
+  }
+
+  .second-speech-scene4 {
+    top: 57px;
+    font-size: 2rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .first-speech-scene4 {
+    top: 95px;
+    left: 2px;
+    font-size: 1.7rem;
+  }
+
+  .second-speech-scene4 {
+    top: 85px;
+    font-size: 2.7rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .first-speech-scene4 {
+    top: 64px;
+    font-size: 1.3rem;
+  }
+
+  .second-speech-scene4 {
+    top: 60px;
+    font-size: 2.2rem;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .first-speech-scene4 {
+    top: 90px;
+    font-size: 1.7rem;
+  }
+
+  .second-speech-scene4 {
+    top: 80px;
+    font-size: 2.6rem;
+  }
+}
+
+/* Super Extra large devices (large laptops and desktops, 1600px and up) */
+@media only screen and (min-width: 1600px) {
+  .first-speech-scene4 {
+    top: 115px;
+    font-size: 1.9rem;
+  }
+
+  .second-speech-scene4 {
+    top: 105px;
+    font-size: 3rem;
+  }
+}
+
+/* Iphone 6/7/8 Plus Landscape */
+@media only screen and (max-width: 736px) and (max-height: 414px) and (orientation: landscape) {
+  .first-speech-scene4 {
+    top: -5px;
+    font-size: 1.1rem;
+  }
+
+  .second-speech-scene4 {
+    top: -5px;
+    font-size: 2rem;
+  }
+}
