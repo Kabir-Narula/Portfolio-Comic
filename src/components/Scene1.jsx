@@ -51,8 +51,8 @@ export const Scene1 = () => {
             options={{
               strings: [firstSpeech],
               autoStart: true,
-              delay: 50,
-              deleteSpeed: 10,
+              delay: 42,
+              deleteSpeed: 7,
               pauseFor: 1500,
               cursor: "",
             }}

@@ -52,7 +52,7 @@ export const Scene6 = () => {
             onInit={(typewriter) => {
               typewriter
                 .typeString(firstSpeech)
-                .pauseFor(2500)
+                .pauseFor(2000)
                 .callFunction(() => {
                   setText(!text);
                 })
@@ -79,35 +79,35 @@ export const Scene6 = () => {
         />
       </div>
 
-      <Delay wait={6500}>
+      <Delay wait={5500}>
         <div
           className={text2 ? "toggle-text txt2-scene6-chg" : "text txt2-scene6"}
         >
           <Typewriter
             options={{
-              delay: 50,
+              delay: 42,
               deleteSpeed: 10,
               cursor: "",
             }}
             onInit={(typewriter) => {
               typewriter
                 .typeString(secondSpeech)
-                .pauseFor(2500)
+                .pauseFor(2000)
                 .deleteChars(15)
                 .typeString(thirdSpeech)
-                .pauseFor(2500)
+                .pauseFor(2000)
                 .deleteChars(32)
                 .typeString(fourthSpeech)
-                .pauseFor(2500)
-                .deleteChars(45)
+                .pauseFor(2000)
+                .deleteChars(42)
                 .callFunction(() => {
                   setText2(!text2);
                   setFrame(!frame);
                   setText(!text);
                 })
                 .typeString(fifthSpeech)
-                .pauseFor(2500)
-                .deleteChars(50)
+                .pauseFor(2000)
+                .deleteChars(42)
                 .callFunction(() => {
                   setText(text);
                   setMainImage2(!mainImage2);

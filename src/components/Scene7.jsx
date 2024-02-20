@@ -48,8 +48,8 @@ export const Scene7 = () => {
         <div className="text txt-scene7">
           <Typewriter
             options={{
-              delay: 50,
-              deleteSpeed: 10,
+              delay: 45,
+              deleteSpeed: 8,
               cursor: "",
             }}
             onInit={(typewriter) => {

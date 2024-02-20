@@ -57,14 +57,14 @@ export const Scene8 = () => {
         <div className="text txt-scene8">
           <Typewriter
             options={{
-              delay: 50,
-              deleteSpeed: 10,
+              delay: 45,
+              deleteSpeed: 8,
               cursor: "",
             }}
             onInit={(typewriter) => {
               typewriter
                 .typeString(firstSpeech)
-                .pauseFor(2000)
+                .pauseFor(1800)
                 .deleteChars(42)
                 .callFunction(() => {
                   setImage(!image);

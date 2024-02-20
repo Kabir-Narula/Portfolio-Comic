@@ -39,11 +39,11 @@ export const Scene4 = () => {
         />
       </div>
 
-      <Delay wait={2000}>
+      <Delay wait={1500}>
         <div className="text txt-scene4">
           <Typewriter
             options={{
-              delay: 50,
+              delay: 45,
               cursor: "",
             }}
             onInit={(typewriter) => {
@@ -63,11 +63,11 @@ export const Scene4 = () => {
         />
       </div>
 
-      <Delay wait={5000}>
+      <Delay wait={4500}>
         <div className="text txt2-scene4">
           <Typewriter
             options={{
-              delay: 50,
+              delay: 40,
               cursor: "",
             }}
             onInit={(typewriter) => {

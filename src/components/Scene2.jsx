@@ -78,9 +78,9 @@ export const Scene2 = () => {
             options={{
               strings: [firstSpeech, secondSpeech],
               autoStart: true,
-              delay: 50,
-              deleteSpeed: 10,
-              pauseFor: 2000,
+              delay: 45,
+              deleteSpeed: 7,
+              pauseFor: 1500,
               cursor: "",
             }}
             onInit={(typewriter) => {
@@ -91,10 +91,10 @@ export const Scene2 = () => {
                   setText(!text);
                 })
                 .typeString(thirdSpeech)
-                .pauseFor(2500)
-                .deleteChars(10)
+                .pauseFor(1900)
+                .deleteChars(7)
                 .typeString(fourthSpeech)
-                .pauseFor(2500)
+                .pauseFor(1900)
                 .callFunction(() => {
                   setMainImage(!mainImage);
                 })
