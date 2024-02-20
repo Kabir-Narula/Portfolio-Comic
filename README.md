@@ -23,7 +23,7 @@ This repository houses the source code for my React portfolio website, designed 
 
 ### Installation and Setup
 
-- Clone this repository: git clone https://docs.github.com/en/repositories/creating-and-managing-repositories/quickstart-for-repositories
+- Clone this repository: git clone https://github.com/Kabir-Narula/Portfolio-Comic/blob/main/README.md
 - Install dependencies: npm install
 - Start the development server: npm start
 - Your portfolio will be accessible at http://localhost:3000
